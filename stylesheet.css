@@ -1,23 +1,22 @@
 body {
     margin: 0;
-    margin-top: 70px;
-    font-family: sans-serif; /* Add this line */
+    margin-top: 50px;
 }
 
-header { /* details of header*/
+header {
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     background-color: #eee;
 }
 
-header * {  /* for image of dogs in header*/
+header * {
     display: inline;
-    height: 70px;
+    height: 50px;
 }
 
 header ul {
@@ -39,38 +38,9 @@ section {
 
 #hero .profile-img {
     width: 300px;
-    border-radius: 50%; /* Add this line */
 }
 
 footer {
     text-align: center;
     padding: 50px;
 }
-
-/* Add everything below here */
-
-#hero h1 {
-    font-size: 3em;
-}
-
-section h2 {
-    font-size: 2.5em;
-}
-
-section h3 {
-    font-size: 1.5em;
-}
-
-header a { 
-    text-decoration: none;
-    color: green;
-}
-
-.insta_link:link {
-    color:rgb(131, 27, 27);
-    text-decoration:none;
-    }
-    
-    .insta_link:hover{
-    color:rgb(255, 0, 234);
-    }
