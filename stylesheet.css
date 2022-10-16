@@ -1,23 +1,23 @@
 body {
     margin: 0;
-    margin-top: 50px;
-    font-family: sans-serif;
+    margin-top: 70px;
+    font-family: sans-serif; /* Add this line */
 }
 
-header {
+header { /* details of header*/
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    line-height: 50px;
+    height: 70px;
+    line-height: 70px;
     background-color: #eee;
 }
 
-header * {
+header * {  /* for image of dogs in header*/
     display: inline;
-    height: 50px;
+    height: 70px;
 }
 
 header ul {
@@ -35,22 +35,19 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    background-size: cover; /* Add this line */
-    background-position: center center; /* Add this line */
-    background-repeat: no-repeat; /* Add this line */
-    background-attachment: fixed; /* Add this line */
 }
 
 #hero .profile-img {
     width: 300px;
-    border-radius: 50%;
+    border-radius: 50%; /* Add this line */
 }
 
 footer {
     text-align: center;
     padding: 50px;
 }
+
+/* Add everything below here */
 
 #hero h1 {
     font-size: 3em;
@@ -64,21 +61,16 @@ section h3 {
     font-size: 1.5em;
 }
 
-header a {
+header a { 
     text-decoration: none;
-    color: black;
+    color: green;
 }
 
-/* Add everything below here */
-
-#hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
-}
-
-#about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
-}
-
-#contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
-}
+.insta_link:link {
+    color:rgb(131, 27, 27);
+    text-decoration:none;
+    }
+    
+    .insta_link:hover{
+    color:rgb(255, 0, 234);
+    }
